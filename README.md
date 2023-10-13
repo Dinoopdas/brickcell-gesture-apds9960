@@ -22,3 +22,12 @@ To edit this repository in MakeCode.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## Credits to the original author for sharing their work for us. Thank you
+1. [https://github.com/limaodong118/pxt-zjwl-apds9960/](https://github.com/limaodong118/pxt-zjwl-apds9960/)
+Changelog:
+* Changed namespace from "ZjwlGesture9960" to "Brickcell".
+* Removed class "APDS9960", variables and methods exposed to root namespace.
+* Added subcategory "gesture apds9960" to appear under the "Brickcell" block.
+* Modified onGesture() method to work properly for Brickcell requirements.
+* Removed the forward and backward gesture (microbit keeps restarting or hangs).
