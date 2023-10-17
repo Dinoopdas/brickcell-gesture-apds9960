@@ -22,3 +22,11 @@ To edit this repository in MakeCode.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## Credits to the original author for sharing their works for us.
+1. [https://github.com/limaodong118/pxt-zjwl-apds9960/](https://github.com/limaodong118/pxt-zjwl-apds9960/)
+Changelog:
+    * Renamed namespace to Brickcell
+    * Created a subcategory "gesture apds9960" to be under the Brickcell block
+    * Moved the content of APDS9960 class outside (under the Brickcell namespace).
+    * etc, 
